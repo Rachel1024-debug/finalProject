@@ -1,0 +1,46 @@
+
+<!-- Telling computer the language-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+ <!-- tab name -->
+      <title>Rachel's Website</title>
+  </head>
+<!-- linking the css and javascript -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  <body>
+     <!-- title -->
+  <h1 class='centerText'>
+    Rachel Santos 
+</h1>
+<!-- Title / about me -->
+  <h3 class='centerText'>ABOUT ME</h3><br>
+I was born in Santa Clara, California. In my first years of life, I lived in Mountain View with my parents and my grandma. When I turned four, my little sister was born. The next year, when I went to kindergarten, we moved to my current home in Campbell. The school I go to right now is Saint Nicholas. I have been going to this school since kindergarten.
+      <p>   Some activities I enjoy are sports, hanging out with friends, and listening to music. Some sports I like to play are volleyball, swimming, and tennis. My favorite sport is volleyball. Some things my friends and I like to do are talking, playing sports, and playing games we made. Finally, my  two favorite song artists are Billie Eilish and Khalid.  </p>
+<!-- the part that creates the buttons -->
+      <div id="container">
+<h2 id="projectText" onclick="toggleProjects()">My Projects</h2>
+<h2 id="techText" onclick="toggleTech()">Technologies I'm Learning</h2>
+</div>
+<!-- the things that the buttons are linking you to-->
+<div id="projectList" style="display: none">
+  <a class='linkText' href="https://docs.google.com/presentation/d/19jz-T6iYGzhTfbRaXn8rfkY-yJquOy4ENHS3YtCXDNE/edit#slide=id.p">App Outline: </a> <p>In this projct we got together in groups and created designs for our app. We created an app called BusTrack, where you can track your bus from anywhere. In this link you can see our app design.  </p><br>
+  <a class='linkText' href="https://trinket.io/html/a5602720c3?runMode=autorun">Online Painter: </a> <p>In this project, I made an online coloring grid. Above the grid are different colors to choose from. You can now select your color and color on the grid. </p><br>
+  <a class='linkText' href="https://airtable.com/shrHC3AcNg5ST9sC4">Data Storage: </a> <p>In this project, I learned how to create a form where I can see the data too. In this project we asked our classmates to complete our servey, and we would see their responses.  </p><br>
+  <a class='linkText' href="https://trinket.io/html/43d78b1d67?runMode=autorun">Storybook: </a> <p>In my project, Storybook, my friend and I worked together to create a comic. In our comic we included visuals and text. We even made separate boxes for all of the scenes.  </p><br>
+</div>
+
+<div id="techList" style="display: none">
+  <a class='linkText' href="#">HTML5: </a> <p>HTML5 is a coding language where you design websites. In this part of web design, you do the words and a little bit of the organization. Another helpful thing to know is that all developers need to know HTML, CSS, and JavaScript. </p><br>
+  <a class='linkText' href="#">CSS3: </a> <p>CSS3 is the visual part of web development, or where you design your website. In CSS3, you can change the color of your website's backround and where you can move text and change its color.</p><br>
+  <a class='linkText' href="#">JavaScript: </a> <p>Javascript is the third part of web development. JavaScript is where you make the interactive parts of websites like buttons and links.</p><br>
+  <a class='linkText' href="#">Backend: </a> <p>Backend is the part of a website that users don't see. It is the part of a website that stores data or calculates it. Backend is also what makes front-end development possible. </p><br>
+</div>
+<!-- the image -->
+<img src="https://doublethedonation.blob.core.windows.net/images/ywoX4X0kTSa230PUOLiv_stNicholasSchoolLogo.png"  id="image"/>
+      
+<!-- closing -->
+  </body>
+</html>

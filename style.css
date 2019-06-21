@@ -1,0 +1,47 @@
+/* the background color of the whole website */
+html{
+  background-color: 
+}
+/* centering the title */
+.centerText{
+  text-align: center
+}
+/* the color of the title*/
+#title{
+  color:   #FF5733 
+}
+/* moving the buttons (tech and projects) variable container is on html page and is on line 26*/
+#container{
+  margin-left: 32px;
+  display: flex;
+  justify-content: space-evenly
+}
+/* making texts red when you hover above it*/
+#projectText:hover{
+  cursor:  pointer;
+  color: #FF5733 
+}
+
+#techText:hover{
+  cursor:  pointer;
+  color: #FF5733 
+}
+/* moving all of the button links to the center*/
+#projectList{
+  text-align: center;
+  margin-top: 12px
+}
+
+#techList{
+  text-align: center;
+  margin-top: 12px
+}
+/* coloring the text */
+.linkText{
+  color: #FF5733 
+}
+/* moving image and controling box alignment */
+#image{
+    justify-content: center;  
+    margin-left: 570px;
+}
